@@ -1,0 +1,183 @@
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    background-color: rgb(209, 224, 241);
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 130px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+/*Estilização do menu*/
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*Estlização do menu quando o mouse está em cima*/
+nav a:hover{
+    color: rgb(212, 171, 81);
+    text-decoration: underline;
+}
+/*Posição do Menu*/
+.logo_caixa{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+/*Tamanho do logo*/
+.logo{
+    width: 40%;
+}
+
+.baner{
+    width: 100%;
+}
+
+.resumo2{
+    width: 100px;
+    float: left;
+    margin: 0 20px;
+}
+
+/*Sobre a PetMatch*/
+.tiuloPetMacth{
+    text-align:center ;
+    clear: left;
+    font-size: 2em;
+    margin: 0;
+}
+
+.sobre-PetMatch{
+    background-color: #d0e1f240;
+    width: 100%;
+    padding-top:25px;
+    padding-bottom:0px;
+    border: 0;
+    margin: 0;
+    
+}
+.p1{
+    border: 0;
+    margin: 0;
+}
+.main{
+    margin: 0;
+}
+
+
+.tituloestabelecimento{
+    text-align:center;
+    font-size: 2em;
+    margin: 0;
+    padding-top: 0px;
+    border: 0;
+    width: 100%;
+}
+
+.localizacao{
+    background: linear-gradient( #d0e1f240, #d2dff0ff);
+    padding-top: 0px;
+    text-align:center;
+    margin: 0;
+    width: 100%;
+    border: 0;
+    padding-top: 50px;
+}
+
+.beneficios{
+    background-color:#d2dff0ff;
+    padding-top: 0px;
+    margin: 0;
+    width: 100%;
+    border: 0;
+
+}
+
+.titulobene{
+    text-align:center;
+    font-size: 2em;
+    margin: 0;
+    padding-top: 0px;
+    border: 0;
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.conteudobeneficios{
+    width: 100%;
+}
+
+.listabene{
+    list-style: "🐾";
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30%;
+}
+
+.listabene li{
+    line-height: 1.6;
+}
+
+.listabene li:before{
+    width: 150px;
+}
+
+.listabene li:first-child{
+font-weight: bold;
+}
+
+.carinho{
+    width: 10%;
+    box-shadow: 10px 10px 5px 0 black;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.carinho:hover{
+    opacity: 0.7;
+}
+
+.beneficios{
+}
+
+.video{
+    background-color:#d2dff0ff;
+    padding-left: 600px;
+    border: 0;
+}
+
+/*Estilazação do Footer*/
+footer{
+    text-align: center;
+    margin: 0;
+    background: url("fundolaranja.jpg");
+    padding: 0 0 0 0;
+}
+.copyright{
+    color:white;
+    font-size: 12px;
+    margin: 20px;
+    border: 0;
+    padding-top: 0px;
+    margin: 0;
+}
+
+.logo_footer{
+    width: 20%;
+    border: 0;
+    padding-top: 0px;
+    margin: 0;
+}
