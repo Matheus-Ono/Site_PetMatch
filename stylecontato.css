@@ -1,0 +1,58 @@
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    background-color: rgb(209, 224, 241);
+}
+.copyright{
+    color:white;
+    font-size: 12px;
+    margin: 20px;
+    border: 0;
+    padding-top: 0px;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+    margin: 0;
+    background: url("fundolaranja.jpg");
+    padding: 0 0 0 0;
+}
+
+.logo_footer{
+    width: 20%;
+    border: 0;
+    padding-top: 0px;
+    margin: 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*Estlização do menu quando o mouse está em cima*/
+nav a:hover{
+    color: rgb(212, 171, 81);
+    text-decoration: underline;
+}
+/*Posição do Menu*/
+.logo_caixa{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 130px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}

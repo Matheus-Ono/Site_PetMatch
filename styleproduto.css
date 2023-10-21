@@ -1,3 +1,15 @@
+.Produtos{
+    text-align:center ;
+    clear: left;
+    font-size: 2em;
+    margin: 0;
+    padding-bottom: 100px;
+    color: rgb(82, 151, 190);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .opcoes{
     width: 100%;
     padding-top:75px;
